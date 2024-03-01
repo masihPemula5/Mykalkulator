@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>Kalkulator</title>
+ 
+  <link rel="stylesheet" href="style.css">
+  
+    <script src="https://kit.fontawesome.com/9c951e7902.js" crossorigin="anonymous"></script>
+</body>
+</head>
+
+<body>
+  <div class="logo">
+    <i class="fa-regular fa-sun"></i>
+  </div>
+  
+ <div class="container">
+   <input type="text" class="display" id="display" readonly>
+   <div class="buttons">
+      <button onclick="tambahkan('7')">7</button>
+      <button onclick="tambahkan('8')">8</button>
+      <button onclick="tambahkan('9')">9</button>
+      <button onclick="tambahkan('/')">/</button>
+      <button onclick="tambahkan('4')">4</button>
+      <button onclick="tambahkan('5')">5</button>
+      <button onclick="tambahkan('6')">6</button>
+      <button onclick="tambahkan('*')">x</button>
+      <button onclick="tambahkan('1')">1</button>
+      <button onclick="tambahkan('2')">2</button>
+      <button onclick="tambahkan('3')">3</button>
+      <button onclick="tambahkan('-')">-</button>
+      <button onclick="tambahkan('0')">0</button>
+      <button onclick="tambahkan('+')">+</button>
+      <button onclick="clearDisplay()">AC</button>
+      <button onclick="calculate()">=</button>
+   </div>
+   
+   
+ </div>
+
+  <script src="main.js"></script>
+  
+
+</html>

@@ -1,0 +1,22 @@
+function tambahkan(value) {
+  document.getElementById('display'
+  ).value += value
+  
+}
+
+function clearDisplay() {
+  document.getElementById('display'
+  ).value = ''
+}
+
+function calculate() {
+  try {
+    let result = eval(document.getElementById('display'
+    ).value)
+    document.getElementById('display'
+    ).value = result
+  } catch (Error) {
+    document.getElementById('display'
+    ).value = 'Error nyet masukin yang bener'
+  }
+}
